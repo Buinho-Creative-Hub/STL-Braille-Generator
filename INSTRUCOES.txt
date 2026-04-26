@@ -1,0 +1,33 @@
+============================================
+ BRAILLE DOME v3 - Instrucoes Windows
+============================================
+
+PARA GERAR O EXECUTAVEL:
+  1. Apaga TUDO o que ja tinhas da versao anterior
+     (incluindo as pastas "build", "dist", e o
+      ficheiro "BrailleDome.spec" se existirem)
+  2. Mete TODOS os ficheiros desta pasta numa
+     pasta nova (ex: C:\braille_dome\)
+  3. Faz duplo-clique em "build_exe.bat"
+  4. Espera 5-10 minutos
+  5. Vai a dist\BrailleDome.exe
+
+PARA USAR:
+  Duplo-clique em BrailleDome.exe.
+  - Aparece uma janela preta com texto.
+  - O navegador abre sozinho.
+  - DEIXA A JANELA PRETA ABERTA enquanto usas a app!
+  - Para fechar tudo: fecha a janela preta.
+
+DIFERENCAS DESTA VERSAO:
+  - NAO precisa mais de shapely nem manifold3d
+    (eram as bibliotecas que estavam a fazer
+    a app crashar silenciosamente)
+  - Geometria construida directamente -> mais
+    leve, mais rapida, .exe mais pequeno
+  - Janela preta visivel em vez de janelinha
+    -> se algo correr mal, vemos o erro
+
+============================================
+ Buinho FabLab - Messejana
+============================================

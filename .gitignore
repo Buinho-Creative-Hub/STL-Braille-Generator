@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Output STLs (não comitar testes locais)
+*.stl
+test_*.stl
+saida_*.stl
+
+# Logs
+*.log

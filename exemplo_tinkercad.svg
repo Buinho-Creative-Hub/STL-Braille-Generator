@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="40mm" height="20mm" viewBox="0 0 40 20">
+  <!-- Placa de fundo (rectângulo) -->
+  <rect x="0" y="0" width="40" height="20" fill="#cccccc" stroke="none"/>
+
+  <!-- "A" em braille = ponto 1 -->
+  <circle cx="5" cy="5" r="0.75" fill="#444"/>
+
+  <!-- Prefixo de maiúscula (4-6) antes da próxima letra -->
+  <!-- Mas para teste simples, façamos só a, b, c minúsculos -->
+
+  <!-- "B" = pontos 1, 2 -->
+  <circle cx="11" cy="5"   r="0.75" fill="#444"/>
+  <circle cx="11" cy="7.5" r="0.75" fill="#444"/>
+
+  <!-- "C" = pontos 1, 4 -->
+  <circle cx="17"   cy="5" r="0.75" fill="#444"/>
+  <circle cx="19.5" cy="5" r="0.75" fill="#444"/>
+</svg>
